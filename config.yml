@@ -1,0 +1,42 @@
+baseURL: "https://www.rkvignes.com/"
+title: Rk | Blog
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "My Personal Blog"
+    author: Rk Vigneswaran
+
+    defaultTheme: auto
+    images: ["logo.png"]
+
+    homeInfoParams:
+        Title: Hi, I am Vigneswaran 👋
+        Content: Nice to meet you
+    socialIcons: # optional
+        - name: linkedin
+          url: "https://www.linkedin.com/in/rkvigneswaran/"
+        - name: github
+          url: "https://github.com/rkvigneswaran"
+        - name: stackoverflow
+          url: "https://stackoverflow.com/users/6789035/vigneswaran-rk"
+        - name: twitter
+          url: "https://twitter.com/rkvigneswaran"
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary          
