@@ -1,4 +1,4 @@
-baseURL: "https://www.rkvignes.com/"
+#baseURL: "https://www.rkvignes.com/"
 title: Rk | Blog
 paginate: 5
 theme: PaperMod
